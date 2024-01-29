@@ -1,2 +1,2 @@
 # rivera
-This is a demo website for rivera ro company created by inffy and its just a kickstart this is only 40% of what we have thought of just wait for the final product. 
+This is a raw website for showing the structure and some examples of designs which will be used in making of the website this is not even a 5% of the original one but as it is in the process of building i can't share source code for now will do it soon !!

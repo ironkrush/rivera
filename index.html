@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rivera RO</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="loader-page">
+        <video autoplay loop muted id="bgvideo" src="loading.mp4">BG</video>
+    </div>
+    <video autoplay loop muted id="bgvideo" src="bg(1080).mp4">BG</video>
+    <div id="main">
+        <!-- Scrollbar container -->
+        <div id="scrollbar-container">
+            <!-- Scrollbar -->
+            <div id="scrollbar"></div>
+        </div>
+        <div id="nav">
+            <div id="nav-img">
+                <img src="FB_IMG_1699765278535-removebg-preview.png" alt="">
+            </div>
+            <div id="nav-links"> <ul> <li><a href="">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">Blog</a></li> </ul>
+            </div>
+        </div>
+        <div id="page1">
+            <div id="welcome-text">
+                <h1>Welcome to RIVERA</h1>
+                <h1>Welcome to RIVERA</h1>
+                <h1>Welcome to RIVERA</h1>
+            </div>
+            
+        </div>
+       
+        <section>
+            <div class="wave" id="wave1" style="--i:1"></div>
+            <div class="wave" id="wave2" style="--i:2"></div>
+            <div class="wave" id="wave3" style="--i:3"></div>
+            <div class="wave" id="wave4" style="--i:4"></div>
+        </section>
+        <div class="sec">
+            <h2>DO YOU KNOW ?</h2>
+            <p>The Rivera Alkaline RO stands as a comprehensive purifier, effectively eliminating physical, chemical,
+                and biological impurities. Moreover, it goes beyond mere purification by reintroducing essential
+                minerals often stripped away by conventional RO plants. Additionally, it enhances water quality by
+                elevating dissolved oxygen levels and optimizing pH and alkalinity.</p>
+            <p> Choose the Rivera Natural Alkaline RO Water Purifier for a wellness-focused lifestyle, promoting a
+                harmonious balance of mood, mind, and body. </p>
+            <p>This purifier actively reduces body acidity, ensuring pH balance and offering natural alkaline water to
+                support digestion and combat various day-to-day ailments, fostering your overall well-being.
+            </p>
+            <p>Safeguard yourself from harmful contaminants in water by opting for Natural Alkaline water, rich in
+                essential minerals like Magnesium and Calcium, and less acidic than conventional tap water.
+            </p>
+
+        </div>
+        <div class="carousel">
+            <button class="carousel-btn carousel-prev" onclick="prevSlide()">&#10094;</button>
+            <div class="carousel-inner" id="carouselInner">
+                <div class="carousel-item"><img src="slide_banner_n_1.jpg" alt=""></div>
+                <div class="carousel-item"><img src="slide_banner_n_2.jpg" alt=""></div>
+                <div class="carousel-item"><img src="slide_rivera_2.jpg" alt=""></div>
+                <div class="carousel-item"><img src="slide_rivera_3.jpg" alt=""></div> 
+            </div>
+            <button class="carousel-btn carousel-next" onclick="nextSlide()">&#10095;</button>
+        </div>
+        <div class="hovercards">
+            <div class="container">
+                <div class="box">
+                    <div class="content">
+                        <h2>Lorem</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="content">
+                        <h2>Ipsum</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="content">
+                        <h2>legend</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat.</p>
+                    </div>
+                </div>
+            </div>
+            <svg>
+                <filter id="wavy">
+                    <feTurbulence x="0" y="0" id="turbulence" baseFrequency="0.01" numOctaves="5" seed="2">
+                        <animate attributeName="baseFrequency" dur="60s" values="0.01;0.05;0.01"
+                            repeatCount="indefinite" />
+                    </feTurbulence>
+                    <feDisplacementMap in="SourceGraphic" scale="30" />
+                </filter>
+            </svg>
+
+        </div>
+        <footer>
+            <div class="waves">
+                <div class="footerwave" id="wave1"></div>
+                <div class="footerwave" id="wave2"></div>
+                <div class="footerwave" id="wave3"></div>
+                <div class="footerwave" id="wave4"></div>
+            </div>
+            <ul class="social_icons">
+                <li><a href=""><i class="ri-instagram-line"></i></a></li>
+                <li><a href=""><i class="ri-twitter-x-line"></i></a></li>
+                <li><a href=""><i class="ri-facebook-circle-fill"></i></a></li>
+                <li><a href=""><i class="ri-linkedin-fill"></i></a></li>
+            </ul>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+            <p>All Rights Reserved by inffy</p>
+        </footer>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+    integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+    integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="script.js"></script>
+
+</html>
